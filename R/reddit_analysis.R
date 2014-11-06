@@ -1,4 +1,4 @@
-setwd("/Users/todd/Dropbox/reddit/")
+setwd("/path/to/this/file/")
 library(ggplot2)
 library(scales)
 library(reshape2)
