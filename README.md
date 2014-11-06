@@ -1,6 +1,6 @@
 # rdrreddit
 
-Materials in support of this post: http://toddwschneider.com/posts/on-the-conditional-probability-of-reaching-the-reddit-front-page/
+Materials in support of this post: http://toddwschneider.com/posts/the-reddit-front-page-is-not-a-meritocracy/
 
 There are 3 main components to the repo:
 
