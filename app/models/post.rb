@@ -59,7 +59,7 @@ class Post < ActiveRecord::Base
     handle_asynchronously :cache_post_attributes
     
     def trim_posts_and_observations
-      raise "Can't only run this in development" unless Rails.env.development?
+      raise "Can only run this in development" unless Rails.env.development?
       
       min_observed_at = RedditObservation.minimum(:created_at)
       max_observed_at = RedditObservation.maximum(:created_at)
